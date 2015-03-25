@@ -9,10 +9,6 @@ app.get('/', function (req, res) {
   res.render('index', { title: 'Hey', message: 'node.js application work't on heroku', img: '<img src="/images/man.png" />'});
 });
 
-app.get('/ne/', function (req, res) {
-  res.render('index', { title: 'Hey', message: 'вторая страница уже с магазином', img: '<img src="/images/bg.jpg" />'});
-});
-
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'));
 });
