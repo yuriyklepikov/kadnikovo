@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.render('index', { title: 'Hey', message: 'node.js application work't on heroku', img: '<img src="/images/man.png" />'});
 });
 
-app.get('/ne', function (req, res) {
+app.get('/ne/', function (req, res) {
   res.render('index', { title: 'Hey', message: 'вторая страница уже с магазином', img: '<img src="/images/bg.jpg" />'});
 });
 
