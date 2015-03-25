@@ -10,7 +10,7 @@ app.set('view engine', 'jade');
 //})
 
 app.get('/', function (req, res) {
-  res.render('index', { title: 'Hey', message: 'Hello there!<br /><img src="/images/bg.jpg" />'});
+  res.render('index', { title: 'Hey', message: 'Hello there!<br /><img src="/images/man.png" />'});
 });
 
 app.listen(app.get('port'), function() {
