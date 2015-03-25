@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {
-  res.render('index', { title: 'Hey', message: 'Hello there!<br /><img src="/images/man.png" />'});
+  res.render('index', { title: 'Hey', message: '<h2>Hello there!</h2><p><img src="/images/man.png" /></p>'});
 });
 
 app.listen(app.get('port'), function() {
