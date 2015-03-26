@@ -7,6 +7,7 @@ app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {
   res.render('index', { title: 'Hey', message: 'node.js application work't on heroku', img: '<img src="/images/man.png" />'
+    });
 });
 
 app.listen(app.get('port'), function() {
